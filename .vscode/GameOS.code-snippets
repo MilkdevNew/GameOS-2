@@ -1,0 +1,11 @@
+{
+  "FusionImport": {
+    "scope": "lua",
+    "prefix": "importf",
+    "body": [
+      "local Fusion = require(game.ReplicatedStorage:WaitForChild(\"Common\"):WaitForChild(\"Packages\"):WaitForChild(\"Fusion\"))",
+      "local New,Children,OnEvent,State,Spring,Computed,Tween = Fusion.New,Fusion.Children,Fusion.OnEvent,Fusion.State,Fusion.Spring,Fusion.Computed,Fusion.Tween"
+    ],
+    "description": "Add Fusion to script"
+  }
+}
